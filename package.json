@@ -1,0 +1,35 @@
+{
+  "name": "ReactNativeTodo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "graphql": {
+    "endpoint": {
+      "url": "https://acaabb.subkit.io/graphql/todos-examples",
+      "headers": {
+        "user-agent": "subkit-examples:subkit-todos",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImF1ZGllbmNlIjoic3Via2l0In0.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoiYWRtaW4ifQ.V1fsPOH9awV8zgBsqiXcpbNwp2uwU-W0p3npSo5AC1w"
+      }
+    }
+  },
+  "dependencies": {
+    "apollo-client": "^0.5.24",
+    "graphql-tag": "^1.1.2",
+    "native-base": "^0.5.18",
+    "react": "15.4.1",
+    "react-apollo": "^0.7.2",
+    "react-native": "0.39.2"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "18.0.0",
+    "react-test-renderer": "15.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
