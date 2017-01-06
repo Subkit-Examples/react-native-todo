@@ -6,6 +6,8 @@
 
 ## iOS
 
+<a href='https://itunes.apple.com/de/app/subkit-todo/id1190261036?l=en&mt=8'><img alt='Get it on iTunes App Store' src='assets/apple-itunes-badge.png' width="180px"/></a>
+
 ```bash
 npm install
 react-native link react-native-vector-icons
